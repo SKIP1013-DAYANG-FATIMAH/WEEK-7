@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class exercise5 {
+
+	String name;
+	int age;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		exercise5 a = new exercise5 ();
+		
+		a.age = 34;
+		a.name = "Moondug";
+		
+		a.printDetails();
+			
+	}
+	public void printDetails() {
+		System.out.println(name + "," + age);
+	}
+
+}
