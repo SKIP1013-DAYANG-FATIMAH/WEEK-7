@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		printAMessage();
+		int sum = add (9,10);
+		System.out.println(sum);
+	}
+	public static void printAMessage() {
+			System.out.println("This is our first method!");
+	}
+	
+	public static int add (int a, int b) {
+		return a+b;
+	}
+	
+}
