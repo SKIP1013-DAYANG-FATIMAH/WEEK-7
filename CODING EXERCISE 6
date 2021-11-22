@@ -1,0 +1,25 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class exercise6 {
+		
+	public static void main(String[] args) {
+	
+		int num;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter a number: ");
+		num = sc.nextInt();
+		
+		if ((num >= 1) && (num <=10))
+			System.out.println("Practice more!");
+		
+		else if ((num >= 11) && (num <=20))
+			System.out.println("More!");
+		else if ((num >= 21) && (num <=30))
+			System.out.println("MORE POWER!");
+		else 
+			System.out.println("MORE GURL!!!");
+	}
+}
