@@ -1,0 +1,42 @@
+package exercise;
+
+import java.util.Scanner;
+
+public class Exercise9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		
+		int marks;
+		
+		System.out.println("Enter your marks: ");
+		marks = sc.nextInt();
+		
+		switch (marks / 10)
+		{
+		case 9:
+			System.out.println("EXCELLENT : Grade A");
+			break;
+		case 8:
+			System.out.println("VERY GOOD : Grade B");
+			break;
+		case 7:
+			System.out.println("GOOD : Grade C");
+			break;
+		case 6:
+			System.out.println("TRY BETTER : Grade D");
+			break;
+		case 5:
+			System.out.println("LOL STUPID : Grade E");
+			break;
+		case 4:
+			System.out.println("GO DIE : Grade F");
+			break;
+		default:
+			System.out.println("BIGGEST DISSAPOINTMENT");
+		}
+	}
+
+}
