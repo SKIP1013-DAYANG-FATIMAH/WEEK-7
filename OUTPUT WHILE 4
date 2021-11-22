@@ -1,0 +1,12 @@
+This is a number guessing system!
+Please enter any number between 0 - 10 : 
+7
+Sorry,too low!
+Please enter any number between 0 - 10 : 
+9
+Sorry,too high!
+Please enter any number between 0 - 10 : 
+8
+Congratulations!! You are correct!
+Please enter any number between 0 - 10 : 
+
