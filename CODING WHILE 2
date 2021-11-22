@@ -1,0 +1,29 @@
+package work;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int k=20;
+		int g=20;
+		int l=20;
+		
+		while (k > 10) {
+	        System.out.println("k = " + k);
+	          k--; 
+	    }
+		
+		do {
+			System.out.println("g = " + g);
+		} while(g>10);
+		
+		for (g=20; g>10; k--) {
+			System.out.println("l = " + l);
+		}
+		
+	
+		
+	}
+
+}
